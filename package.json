@@ -1,6 +1,6 @@
 {
   "name": "reveal-run-in-terminal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show and execute code in your presentation",
   "main": "index.js",
   "dependencies": {
@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "node demo/app.js",
-    "build": "browserify --debug src/reveal-run-in-terminal.js > static/plugin/reveal-run-in-terminal.js"
+    "build": "browserify --debug src/reveal-run-in-terminal.js > static/plugin/reveal-run-in-terminal.js",
+    "release": "np"
   },
   "author": {
     "name": "Daniel Luxemburg",
