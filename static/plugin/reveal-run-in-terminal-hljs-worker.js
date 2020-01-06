@@ -1,10 +1,9 @@
 self.window = {};
-importScripts('/plugin/highlight/highlight.js');
+importScripts('/plugin/hl-9.0.0.js');
 
-onmessage = (event) => {
+onmessage = event => {
   postMessage({
     code: self.hljs.highlightAuto(event.data.code),
-    callbackId: event.data.callbackId
+    callbackId: event.data.callbackId,
   });
 };
-
