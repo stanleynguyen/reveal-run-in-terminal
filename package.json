@@ -21,9 +21,16 @@
     "email": "daniel.luxemburg@gmail.com",
     "url": "http://dluxemburg.com"
   },
+  "contributors": [
+    {
+      "name": "Stanley Nguyen",
+      "email": "hung.ngn.the@gmail.com",
+      "url": "https://stanleynguyen/me"
+    }
+  ],
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dluxemburg/reveal-run-in-terminal.git"
+    "url": "git://github.com/stanleynguyen/reveal-run-in-terminal.git"
   }
 }
