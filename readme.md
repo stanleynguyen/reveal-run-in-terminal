@@ -1,5 +1,7 @@
 # reveal-run-in-terminal
 
+[![NPM](https://nodei.co/npm/reveal-run-in-terminal.png)](https://nodei.co/npm/reveal-run-in-terminal/)
+
 Add executable code examples to you [reveal.js](https://github.com/hakimel/reveal.js/#revealjs) presentation.
 
 Tabbing between Keynote and a terminal looks terrible and it is impossible to type with people watching anyway.
@@ -69,7 +71,9 @@ Nothing will happen until `RunInTerminal#init` is called. You should also includ
 
 - **`defaultBin`**: Default value for the `data-run-in-terminal-bin` attribute of individual slides (the executable used to run each code example).
 
-###Add Some Slides
+### Add Some Slides
+
+`
 
 ```html
 <section
