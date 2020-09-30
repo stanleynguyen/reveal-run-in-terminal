@@ -1,6 +1,6 @@
 {
   "name": "reveal-run-in-terminal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Show and execute code in your presentation",
   "main": "index.js",
   "dependencies": {
