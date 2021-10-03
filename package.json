@@ -14,7 +14,8 @@
   "scripts": {
     "start": "node demo/app.js",
     "build": "browserify --debug src/reveal-run-in-terminal.js > static/plugin/reveal-run-in-terminal.js",
-    "release": "np"
+    "release": "np",
+    "test": "echo 'no test yet'"
   },
   "author": {
     "name": "Daniel Luxemburg",
