@@ -9,7 +9,7 @@
   "devDependencies": {
     "browserify": "^13.1.0",
     "np": "^6.5.0",
-    "reveal.js": "^3.3.0"
+    "reveal.js": "^4.3.0"
   },
   "scripts": {
     "start": "node demo/app.js",
